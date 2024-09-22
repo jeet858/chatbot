@@ -1,0 +1,394 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": ["My pleasure", "You're Welcome"],
+      "context": [""]
+    },
+    {
+      "tag": "what_are_you",
+      "patterns": [
+        "What are you?",
+        "Can you tell me what you are?",
+        "Are you a real person?"
+      ],
+      "responses": [
+        "I am a chatbot/voicebot called pooja created to assist you with your queries regarding SingleDebt's services. How can I help you today?"
+      ]
+    },
+    {
+      "tag": "whats_your_name",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "What are you called?"
+      ],
+      "responses": ["I am a chatbot/voicebot called pooja."]
+    },
+    {
+      "tag": "introduce_yourself",
+      "patterns": [
+        "Introduce yourself",
+        "Tell me about yourself",
+        "Who are you?",
+        "Can you introduce yourself?"
+      ],
+      "responses": [
+        "Hello! I am a chatbot/voicebot called pooja designed to provide information and assistance regarding SingleDebt's services. I'm here to help you manage and eliminate your debts effectively. How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "query",
+      "patterns": ["What is SingleDebt?"],
+      "responses": ["SingleDebt offers debt management services "],
+      "context": [""]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What services does SingleDebt offer?",
+        "Tell me about SingleDebt's services",
+        "What can SingleDebt do for me?"
+      ],
+      "responses": [
+        "SingleDebt offers personalized debt-free solutions, anti-harassment legal measures, business debt assistance, free legal advisory, and channel partner support to help clients manage and eliminate their debts effectively."
+      ]
+    },
+    {
+      "tag": "debt_free_help",
+      "patterns": [
+        "How can SingleDebt help me become debt-free?",
+        "How do you help with debt?",
+        "Can you help me get out of debt?"
+      ],
+      "responses": [
+        "We create tailored debt management plans based on your financial situation to help you manage and eliminate your debts systematically."
+      ]
+    },
+    {
+      "tag": "debt_management_plan",
+      "patterns": [
+        "What is a debt management plan?",
+        "Explain a debt management plan",
+        "What does a debt management plan involve?"
+      ],
+      "responses": [
+        "A debt management plan is a structured repayment plan designed to help you pay off your debts over time, usually with lower interest rates and waived fees."
+      ]
+    },
+    {
+      "tag": "creditor_harassment",
+      "patterns": [
+        "Will my creditors stop harassing me once I enroll with SingleDebt?",
+        "How do you stop creditor harassment?",
+        "Will creditors leave me alone after I join SingleDebt?"
+      ],
+      "responses": [
+        "Yes, we take legal measures to stop harassment from creditors and collection agents on your behalf."
+      ]
+    },
+    {
+      "tag": "business_debt",
+      "patterns": [
+        "Can SingleDebt help with my business debts?",
+        "Do you assist with business debts?",
+        "How can you help with business-related debts?"
+      ],
+      "responses": [
+        "Absolutely. We offer specialized assistance to help you manage and resolve business-related debts."
+      ]
+    },
+    {
+      "tag": "legal_protection",
+      "patterns": [
+        "How does SingleDebt protect me from legal actions by creditors?",
+        "What legal protection do you offer?",
+        "How do you handle creditor lawsuits?"
+      ],
+      "responses": [
+        "Our in-house panel of advocates and lawyers provide free legal advice and take necessary legal actions to protect you from creditor lawsuits."
+      ]
+    },
+    {
+      "tag": "start_process",
+      "patterns": [
+        "What is the process to get started with SingleDebt?",
+        "How do I begin with SingleDebt?",
+        "What are the steps to enroll?"
+      ],
+      "responses": [
+        "Simply contact us for a free consultation. We will assess your financial situation and design a personalized plan for you."
+      ]
+    },
+    {
+      "tag": "service_fee",
+      "patterns": [
+        "Is there a fee for your services?",
+        "Do you charge for your services?",
+        "What are your service fees?"
+      ],
+      "responses": [
+        "We offer a free initial consultation. Any fees for our services will be clearly explained to you before you decide to enroll."
+      ]
+    },
+    {
+      "tag": "debt_free_duration",
+      "patterns": [
+        "How long will it take to become debt-free?",
+        "What is the timeline for becoming debt-free?",
+        "How long does it take to pay off debts?"
+      ],
+      "responses": [
+        "The duration varies depending on your financial situation and the amount of debt. Our goal is to help you become debt-free as efficiently as possible."
+      ]
+    },
+    {
+      "tag": "creditor_negotiation",
+      "patterns": [
+        "Can SingleDebt negotiate with my creditors on my behalf?",
+        "Will you negotiate with creditors?",
+        "Do you handle creditor negotiations?"
+      ],
+      "responses": [
+        "Yes, we handle all communications and negotiations with your creditors to secure the best possible terms for your debt repayment."
+      ]
+    },
+    {
+      "tag": "types_of_debts",
+      "patterns": [
+        "What types of debts can SingleDebt help with?",
+        "Do you manage different kinds of debts?",
+        "What debts do you handle?"
+      ],
+      "responses": [
+        "We can assist with various types of debts, including credit card debt, personal loans, business debts, and more."
+      ]
+    },
+    {
+      "tag": "credit_score_impact",
+      "patterns": [
+        "Will enrolling with SingleDebt affect my credit score?",
+        "How does your plan impact my credit score?",
+        "Will my credit score be affected?"
+      ],
+      "responses": [
+        "Initially, there may be a slight impact on your credit score, but as you consistently make payments and reduce your debt, your credit score can improve over time."
+      ]
+    },
+    {
+      "tag": "missed_payment",
+      "patterns": [
+        "What if I miss a payment on my debt management plan?",
+        "What happens if I miss a payment?",
+        "Can I miss a payment?"
+      ],
+      "responses": [
+        "It's important to stay on track with payments. If you encounter difficulties, contact us immediately so we can work with you to find a solution."
+      ]
+    },
+    {
+      "tag": "tax_help",
+      "patterns": [
+        "Can SingleDebt help me with my taxes?",
+        "Do you assist with tax issues?",
+        "Can you help with tax debts?"
+      ],
+      "responses": [
+        "While we specialize in debt management, we can refer you to trusted tax professionals who can assist with tax-related issues."
+      ]
+    },
+    {
+      "tag": "availability",
+      "patterns": [
+        "Are your services available throughout India?",
+        "Do you offer services nationwide?",
+        "Can you help me if I'm outside your area?"
+      ],
+      "responses": ["Yes, we provide our services to clients across India."]
+    },
+    {
+      "tag": "confidentiality",
+      "patterns": [
+        "How does SingleDebt ensure confidentiality of my financial information?",
+        "Is my information safe with you?",
+        "How do you protect my data?"
+      ],
+      "responses": [
+        "We prioritize your privacy and ensure all your information is kept confidential and secure."
+      ]
+    },
+    {
+      "tag": "credit_card_usage",
+      "patterns": [
+        "Can I still use my credit cards while enrolled in a debt management plan?",
+        "Can I use my credit cards?",
+        "Should I stop using credit cards?"
+      ],
+      "responses": [
+        "Typically, you will be advised to stop using your credit cards to prevent further debt accumulation."
+      ]
+    },
+    {
+      "tag": "financial_change",
+      "patterns": [
+        "What happens if my financial situation changes after enrolling in a debt management plan?",
+        "Can I adjust my plan?",
+        "What if my income changes?"
+      ],
+      "responses": [
+        "Contact us immediately so we can adjust your plan to accommodate your new financial situation."
+      ]
+    },
+    {
+      "tag": "eligibility",
+      "patterns": [
+        "How do I know if I'm eligible for your services?",
+        "Am I eligible for SingleDebt?",
+        "Who can use your services?"
+      ],
+      "responses": [
+        "Most individuals with unsecured debts can benefit from our services. Contact us for a free consultation to assess your eligibility."
+      ]
+    },
+    {
+      "tag": "financial_education",
+      "patterns": [
+        "Do you offer any educational resources to help me manage my finances better?",
+        "Can you help me learn to manage money?",
+        "Do you provide financial education?"
+      ],
+      "responses": [
+        "Yes, we provide financial education resources to help you build better money management skills and avoid future debt."
+      ]
+    },
+    {
+      "tag": "existing_program",
+      "patterns": [
+        "Can SingleDebt help if I'm already in a debt settlement program with another company?",
+        "Can you help if I have a plan elsewhere?",
+        "What if I'm in another program?"
+      ],
+      "responses": [
+        "Yes, we can review your current situation and provide advice or assistance as needed."
+      ]
+    },
+    {
+      "tag": "account_management",
+      "patterns": [
+        "What happens to my accounts once I enroll in a debt management plan?",
+        "How are my accounts managed?",
+        "What do you do with my accounts?"
+      ],
+      "responses": [
+        "Your accounts will be managed through the plan, and we will negotiate with your creditors for reduced interest rates and waived fees."
+      ]
+    },
+    {
+      "tag": "payment_management",
+      "patterns": [
+        "How does SingleDebt handle payments to creditors?",
+        "Do you manage payments?",
+        "How are payments made?"
+      ],
+      "responses": [
+        "We manage the payments to your creditors on your behalf, ensuring they are made on time and in accordance with your debt management plan."
+      ]
+    },
+    {
+      "tag": "secured_debts",
+      "patterns": [
+        "Can SingleDebt help with secured debts, like car loans or mortgages?",
+        "Do you handle secured debts?",
+        "Can you help with loans?"
+      ],
+      "responses": [
+        "Our primary focus is on unsecured debts, but we can provide guidance and referrals for managing secured debts."
+      ]
+    },
+    {
+      "tag": "legal_rights",
+      "patterns": [
+        "What legal rights do I have against creditor harassment?",
+        "How do you protect against harassment?",
+        "What are my legal rights?"
+      ],
+      "responses": [
+        "You have the right to fair treatment and can take legal action against harassment. Our legal team will help enforce these rights."
+      ]
+    },
+    {
+      "tag": "plan_suitability",
+      "patterns": [
+        "How do I know if a debt management plan is right for me?",
+        "Is a debt management plan suitable for me?",
+        "Should I consider a debt management plan?"
+      ],
+      "responses": [
+        "A debt management plan is suitable for those struggling with multiple debts and looking for a structured way to pay them off. Contact us for a personalized assessment."
+      ]
+    },
+    {
+      "tag": "bank_account",
+      "patterns": [
+        "Will I need to close my bank account to enroll in a debt management plan?",
+        "Do I need a new bank account?",
+        "Can I keep my bank account?"
+      ],
+      "responses": [
+        "No, you won't need to close your bank account, but you may need to set up a separate account for managing your debt payments."
+      ]
+    },
+    {
+      "tag": "family_finances",
+      "patterns": [
+        "How can SingleDebt help my family manage finances better?",
+        "Can you help my family with money management?",
+        "What about family finances?"
+      ],
+      "responses": [
+        "We provide financial education and personalized advice to help your entire family manage finances better and avoid debt."
+      ]
+    }
+  ]
+}
